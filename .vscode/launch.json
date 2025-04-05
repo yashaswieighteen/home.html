@@ -1,0 +1,256 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to Edge",
+            "port": 9222,
+            "request": "attach",
+            "type": "msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open destination.html",
+            "file": "c:\\Users\\Yashaswi Singh\\OneDrive\\Documents\\CodingNinjas\\L3-More on HTML\\Pages\\destination.html"
+        }
+    ]
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination Overview</title>
+</head>
+<body>
+    <h1 id="top">Welcome to the paradise Island!</h1>
+
+    <!-- Hyperlinks -->
+     <a href="Expenses.html" target="_blank">Expenses Details</a>&nbsp;&nbsp;
+     <a href="Booking.html" target="_blank">Book your Holiday</a>
+    
+    <!-- h2 -->
+    <h2>Destination Overview</h2>
+
+    <!-- Audio -->
+     <audio controls autoplay muted>        
+        <source 
+        src="../Multimedia/beach-calm-waves.mp3"
+        type="audio/mp3"
+        />
+        <source 
+        src="../Multimedia/beach-calm-waves."
+        type="audio/"
+        />
+        <p>The audio is not supported</p>
+     </audio>
+
+
+    <!-- image -->
+    <!--Relative path  -->
+    <img src="../Multimedia/paradise-island.jfif"
+    width="80%"
+    height="200px"
+    title="Beach of Paradise Island"
+    alt="finally Siya and Yashaswi are Happily married and enjoying the soothing view of Paradise Island"
+    />
+    <br/>
+    <!-- Hyperlinks -->
+    <a href="AboutPage.html" target="_blank">About</a>&nbsp;&nbsp;
+    <a href="#act">Activities</a>&nbsp;&nbsp;
+    <a href="#att">Attractions</a>&nbsp;&nbsp;
+    <a href="#res">Restaurants</a>&nbsp;&nbsp;
+    <a href="#tra">Travel Tips</a>&nbsp;&nbsp;
+    <a href="yashaswisingh14@gmail.com">Email</a>&nbsp;&nbsp;
+    <a href="tel:8854884565">Tel</a>&nbsp;&nbsp;
+    <!--3 paragraphs  -->
+    <p><em>Paradise Island</em> is a tropical paradise located in the heart of the Pacific Ocean.
+         With its crystal-clear waters and lush landscapes, 
+         it's a dream destination for travelers seeking <b>relaxation</b> and <strong>adventure</strong>. 
+         Whether you want to unwind on sun-kissed beaches or 
+         embark on thrilling outdoor activities, Paradise Island has something for everyone.
+        </p>
+        <p>Paradise Island is a secluded oasis, far removed from the hustle
+             and bustle of everyday life. The air is filled with the sweet scent
+              of tropical flowers, and the gentle rustle of palm leaves provides
+               a soothing soundtrack to your escape. As you step onto the shores, 
+               you are greeted by the warm embrace of the tropical sun and the rhythmic 
+               lull of the ocean waves.
+
+        </p>
+        <p>The coral reefs that surround Paradise Island are a kaleidoscope of colors, 
+            housing an abundance of marine life that beckons snorkelers and divers
+             to explore their vibrant underwater world. From playful dolphins to 
+             graceful sea turtles, the marine inhabitants add to the allure of this aquatic paradise
+
+        </p>
+    <!-- h2 -->
+     <h2 id="act">Activities</h2>
+
+    <!--Unordered list  -->
+    <ul type="square">
+        <li><strong>Snorkeling</strong> in the vibrant coral reefs</li>
+        <li><strong>Relaxing</strong> on pristine white-sand beaches</li>
+        <li><strong>Exploring</strong> the island's tropical rainforests</li>
+        <li><strong>Participating</strong> in water sports such as kayaking and paddleboarding</li>
+    </ul>
+    
+    <!-- h2 -->
+    <h2 id="att">Nearby Attractions</h2>
+    <!-- Ordered list -->
+    <ol type="a" start="5">
+        <li><b>Visit</b> the historic <em>Paradise Temple</em></li>
+        <li><b>Take</b> a boat tour to the secluded <em>Turtle Bay</em></li>
+        <li><b>Explore</b> the local markets and sample tropical fruits</li>
+        <li><b>Hike</b> to the breathtaking <em>Paradise Viewpoint</em></li>
+    </ol>
+
+    <!-- h2 -->
+    <h2 id="res">Recommended Restaurants</h2>
+    <!-- Nested list -->
+    <ul>
+        <li>
+            <b>Seafood haven</b>
+            <ul type="circle">
+            <li>Fresh catch of the day</li>
+            <li>Oceanfront dining experience</li>
+            </ul>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>Tropical Bites</b>
+            <ul type="circle">
+            <li>Local and international cuisine</li>
+            <li>Outdoor seating with panoramic views</li>
+            </ul>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>Island Grill</b>
+            <ul type="circle">
+            <li>Grilled specialties with island flavors</li>
+            <li>Lively atmosphere with live music</li>
+            </ul>
+        </li>
+    </ul>
+    
+
+    <!-- h2 -->
+    <h2 id="tra">Travel Tips</h2>
+    <!-- Description list -->
+    <dl>
+        <dt><b>Best Time to Visit</b></dt>
+        <dd>
+            Year-round, but peak season is during the dry months from June to September.
+        </dd>
+        <dd>
+            Consider visiting during weekdays for fewer crowds.
+        </dd>
+    </dl>
+    <dl>
+    <br />
+        <dt><b>Currency</b></dt>
+        <dd>
+            Local currency is <em>Paradise Dollars (PD).</em>
+        </dd>
+        <dd>
+            Major credit cards are widely accepted.
+        </dd>
+    </dl>
+    <dl>
+        <dt><b>Language</b></dt>
+        <dd>
+            English and <em>Paradisean Creole</em> are widely spoken.
+        </dd>
+        <dd>
+            Learn a few local phrases to enhance your interaction with locals.
+        </dd>
+    </dl>
+    <dl>
+        <dt><b>Local Cuisine</b></dt>
+        <dd>
+            Indulge in the rich flavors of Paradise Island's local cuisine, 
+            featuring a fusion of seafood, tropical fruits, and aromatic spices.
+        </dd>
+        <dd>
+            Try the traditional dish called "Island Delight" for a true taste of local flavors.
+        </dd>
+    </dl>
+    <dl>
+        <dt><b>Weather Conditions</b></dt>
+        <dd>
+            While the weather is generally sunny,
+            occasional tropical showers can occur. It's advisable to carry a light raincoat or umbrella.
+        </dd>
+        <dd>
+            Check the weather forecast before planning outdoor activities.
+        </dd>
+    </dl>
+    <a href="#top">
+        <img 
+        src="../Multimedia/up-arrow.png" 
+        width="8"
+        height="8"
+        />
+    </a>
+    
+    <!-- Horizontal Rule -->
+     <hr />
+    <!-- h2 -->
+     <h2>How to get to Pradise Island?</h2>
+    <!-- video  -->
+     <video 
+     src="../Multimedia/How to Get to Paradise Island May 2022.mp4"
+     width="80%"
+     height="600"
+     controls
+     autoplay
+     muted
+     ></video>
+    <!-- h2  -->
+    <h2>Location</h2> 
+    <!-- Location  -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28908.374197136!2d-77.34194230069193!3d25.08334617816844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x892f7db93cb9b50b%3A0x4f27a6bcae38f950!2sParadise%20Island!5e0!3m2!1sen!2sin!4v1730049948767!5m2!1sen!2sin" 
+    width="400" 
+    height="300" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+
+    </iframe> 
+    <iframe width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/kEBC6UOofqU?si=hy8KSxaVzuyGzMwv" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+
+    </iframe>
+
+    <!-- Paragraph -->
+     <p>
+        Whether you seek <i>adventure</i> or 
+        <i>relaxation</i>,
+        <strong>Paradise Island</strong> offers an 
+        unforgettable experience &nbsp; &nbsp;for every 
+        traveler. Plan your escape to this tropical haven 
+        today!
+     </p>
+
+    <!-- Horizontal Rule -->
+    <hr />
+
+    <!-- Copyright -->
+    <p>&copy; 2023, All rights reserved.</p>
+    
+</body>
+</html>
